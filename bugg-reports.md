@@ -92,4 +92,19 @@ Clear validation rules and consistent error handling
 Actual Result
 System frequently returns “User already exists” even for unusual inputs
 Severity:Low
-
+BUG008 – Contact Form Accepts Invalid Inputs
+Steps to
+1. Go to the “Contact” page
+2. Enter invalid email (e.g., `naruto123`, `harry!@#`)
+3. Enter letters/numbers in the Contact Name field (e.g., `12345`, `@@@`)
+4. Enter random text in the Message field
+5. Click Send message
+Expected Result
+* Email field should require a valid email format (`name@domain.com`)
+* Name field should only accept letters
+* System should show clear error messages and prevent submission
+Actual Result
+* Form accepts invalid emails and invalid characters in the name field
+* Message is submitted successfully despite invalid inputs
+Severity
+Medium
