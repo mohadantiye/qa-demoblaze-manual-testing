@@ -1,4 +1,5 @@
 Test Cases
+valid signup: i will try to signup using a valid username and password
 valid login: trying to login using a valid username and password and i will be expecting a successful login 
 invalid login: i will try to enter a wrong password or username and i will be expecting an error message to be shown
 Adding products to cart: i will try to add products to carts and will be expecting them to be added successfullly 
