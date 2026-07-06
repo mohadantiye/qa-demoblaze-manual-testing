@@ -1,15 +1,16 @@
 # qa-demoblaze-manual-testing
 
 project overview
-This repo contains manual testing of the demoblaze website
+This repository contains a comprehensive manual testing project for the DemoBlaze e-commerce application
 
-The scope will be;
-login functionality
-signup functionality
-product browsing 
-cart system 
-checkout process
-Contact Form Validation
+Scope
+The project covers:
+• User Registration
+• Login
+• Product Browsing
+• Shopping Cart
+• Checkout
+• Contact Form
 
 ## Testing Types
 - Functional Testing
